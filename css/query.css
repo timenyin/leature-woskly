@@ -1,0 +1,51 @@
+
+
+
+/*Big tablet to 1200px(Width smaller  that the 1140px row)****/
+@media only screen and (max-width:1200px){
+   
+
+}
+
+
+/*small phone from 768-1023px ****/
+@media only screen and (max-width:1023px){
+   
+    
+    
+        } 
+
+
+
+
+
+
+/*small phone to tablets from 480-767px ****/
+@media only screen and (max-width:767px){
+   
+    .services-warp::before, .services-warp::after{
+    content: " ";
+    height: 300%;
+    position: absolute;
+    transform: rotate(0deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.8s;
+    opacity: 0;
+    background-color:lightcoral;
+}
+  
+    
+}
+
+
+
+/*small phone from 0-480p x****/
+@media only screen and (max-width:480px){
+   
+    
+
+}
+
+
+
